@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.spec.bak
+.DS_Store
+Thumbs.db
+settings.json
+*.log
+*.tar.gz
+*.zip
+.env
+.env.*
