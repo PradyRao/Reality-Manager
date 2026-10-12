@@ -1,0 +1,5 @@
+PySide6==6.10.0
+paramiko==4.0.0
+platformdirs==4.5.0
+keyring==25.6.0
+pyinstaller==6.16.0
