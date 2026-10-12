@@ -4,13 +4,12 @@ import sys
 
 root = Path(SPECPATH)
 res = root / "reality_manager" / "resources"
-icon = res / ("icon.ico" if sys.platform.startswith("win") else "icon.icns")
 
 a = Analysis(
     [str(root / "run.py")],
     pathex=[str(root)],
     binaries=[],
-    datas=[(str(res / "reality-deploy.sh"), "resources"), (str(res / "icon.png"), "resources")],
+    datas=[(str(res / "reality-deploy.sh"), "resources")],
     hiddenimports=["keyring.backends.Windows", "keyring.backends.macOS"],
     hookspath=[],
     hooksconfig={},
@@ -31,14 +30,12 @@ exe = EXE(
     strip=False,
     upx=True,
     console=False,
-    icon=str(icon),
 )
 
 if sys.platform == "darwin":
     app = BUNDLE(
         exe,
         name="Reality Manager.app",
-        icon=str(icon),
         bundle_identifier="com.realitymanager.desktop",
         info_plist={
             "NSHighResolutionCapable": True,
