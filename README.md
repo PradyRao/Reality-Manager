@@ -147,23 +147,23 @@ The tested router design uses an independent unreachable IPv4 fallback in additi
 
 The original router testing used GL.iNet's VPN UI as an independent comparison/fallback path. These screenshots are included as historical test evidence only; Reality Manager itself is VLESS + REALITY focused.
 
-![GL.iNet tunnel options](docs/screenshots/01-glinet-tunnel-options.png)
+![GL.iNet tunnel options](docs/screenshots/01-glinet-tunnel-options.webp)
 
 ### GL.iNet VPN dashboard — disconnected
 
-![GL.iNet VPN dashboard disconnected](docs/screenshots/02-glinet-vpn-dashboard-disconnected.png)
+![GL.iNet VPN dashboard disconnected](docs/screenshots/02-glinet-vpn-dashboard-disconnected.webp)
 
 ### GL.iNet OpenVPN connected
 
-![GL.iNet OpenVPN connected](docs/screenshots/03-glinet-openvpn-connected.png)
+![GL.iNet OpenVPN connected](docs/screenshots/03-glinet-openvpn-connected.webp)
 
 ### OpenVPN reconnecting during outage testing
 
-![GL.iNet OpenVPN reconnecting](docs/screenshots/04-glinet-openvpn-reconnecting.png)
+![GL.iNet OpenVPN reconnecting](docs/screenshots/04-glinet-openvpn-reconnecting.webp)
 
 ### OpenVPN reconnected
 
-![GL.iNet OpenVPN reconnected](docs/screenshots/05-glinet-openvpn-reconnected.png)
+![GL.iNet OpenVPN reconnected](docs/screenshots/05-glinet-openvpn-reconnected.webp)
 
 ## Performance example from the original test environment
 
@@ -171,7 +171,7 @@ These are illustrative measurements from the same Tokyo VPS exit, not a controll
 
 ### VLESS + REALITY
 
-![REALITY Speedtest](docs/screenshots/06-reality-speedtest.png)
+![REALITY Speedtest](docs/screenshots/06-reality-speedtest.webp)
 
 Observed in this run:
 
@@ -182,7 +182,7 @@ Observed in this run:
 
 ### OpenVPN comparison
 
-![OpenVPN Speedtest](docs/screenshots/07-openvpn-speedtest.png)
+![OpenVPN Speedtest](docs/screenshots/07-openvpn-speedtest.webp)
 
 Observed in this run:
 
