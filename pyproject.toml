@@ -1,0 +1,14 @@
+[project]
+name = "reality-manager"
+version = "0.1.0"
+description = "Cross-platform GUI for VLESS + REALITY deployment and operation"
+requires-python = ">=3.11"
+dependencies = [
+  "PySide6==6.10.0",
+  "paramiko==4.0.0",
+  "platformdirs==4.5.0",
+  "keyring==25.6.0",
+]
+
+[project.scripts]
+reality-manager = "reality_manager.app:run_app"
